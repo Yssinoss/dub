@@ -29,6 +29,7 @@
     "turbo": "^1.12.5"
   },
   "resolutions": {
+    "@baseline-browser-mapping": "2.1.0",
     "chrono-node": "2.7.5"
   },
   "packageManager": "pnpm@9.15.9"
