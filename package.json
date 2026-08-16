@@ -28,10 +28,7 @@
     "tsconfig": "workspace:*",
     "turbo": "^1.12.5"
   },
-  "pnpm": {
-    "overrides": {
-    "baseline-browser-mapping": "2.1.0"
-      }
+
   },
   "packageManager": "pnpm@11.22.0"
 }
