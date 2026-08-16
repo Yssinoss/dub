@@ -9,8 +9,10 @@ allowBuilds:
   "sharp": true
   "better-sqlite3": true
   "sqlite3": true
+  "protobufjs": true
+  "esbuild": true
 
 overrides:
-  esbuild: "npm:esbuild-wasm@0.24.0"
+  esbuild: "npm:esbuild-wasm@latest"
   "@types/react": "19.1.14"
   "@types/react-dom": "19.1.9"
