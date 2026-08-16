@@ -3,13 +3,14 @@ packages:
   - "apps/web/.react-email"
   - "packages/*"
   - "packages/embeds/*"
-pnpm:
-  allowedNonApprovedScripts:
-    - '@prisma/client'
-    - '@prisma/engines'
-    - '@swc/core'
-    - 'esbuild'
-    - 'prisma'
-    - 'protobufjs'
-    - 'sharp'
-    - 'sqlite3'
+
+onlyBuiltDependencies:
+  - "@prisma/client"
+  - "@prisma/engines"
+  - "@swc/core"
+  - "esbuild"
+  - "prisma"
+  - "protobufjs"
+  - "sharp"
+  - "sqlite3"
+  - "better-sqlite3"
