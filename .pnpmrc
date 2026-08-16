@@ -5,3 +5,4 @@ node-linker=hoisted
 public-hoist-pattern[]=prisma
 onlyBuiltDependencies=esbuild,prisma,protobufjs
 shell-emulator=true
+ignore-build-scripts-for-hoisted-workspaces=false
