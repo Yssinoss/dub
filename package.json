@@ -3,8 +3,7 @@
   "private": true,
   "scripts": {
     "build": "turbo build",
-    "dev": "turbo dev",
-    "postinstall": "pnpm approve-builds"
+    "dev": "turbo dev"
   },
   "devDependencies": {
     "turbo": "latest"
