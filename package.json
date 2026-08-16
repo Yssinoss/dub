@@ -3,7 +3,7 @@
   "private": true,
   "license": "AGPL-3.0-or-later",
   "scripts": {
-    "build": "pnpm approve-builds --all --interactive=false && turbo build",
+    "build": "turbo build",
     "build:packages": "pnpm -r --filter \"./packages/**\" build",
     "dev": "turbo dev",
     "lint": "turbo lint",
