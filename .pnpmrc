@@ -1,3 +1,4 @@
-auto-install-peers=true
 ignore-scripts=false
-build-from-source=@prisma/client,@prisma/engines,@swc/core,esbuild,prisma,protobufjs,sharp,sqlite3
+auto-install-peers=true
+shamefully-hoist=false
+node-linker=hoisted
