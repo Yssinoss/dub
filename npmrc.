@@ -1,5 +1,4 @@
 ignore-scripts=false
-allow-scripts=true
 auto-install-peers=true
-shamefully-hoist=true
+shamefully-hoist=false
 node-linker=hoisted
