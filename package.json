@@ -2,7 +2,7 @@
   "name": "dub-monorepo",
   "private": true,
   "scripts": {
-    "build": "turbo build",
+    "build": "pnpm install --ignore-scripts && turbo build",
     "dev": "turbo dev"
   },
   "devDependencies": {
