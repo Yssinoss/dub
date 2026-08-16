@@ -3,12 +3,8 @@
   "private": true,
   "scripts": {
     "build": "turbo build",
-    "dev": "turbo dev"
-  },
-  "pnpm": {
-    "overrides": {
-      "esbuild": "npm:esbuild-wasm@latest"
-    }
+    "dev": "turbo dev",
+    "postinstall": "pnpm approve-builds"
   },
   "devDependencies": {
     "turbo": "latest"
