@@ -9,4 +9,4 @@ allowBuilds:
   "sharp": true
   "better-sqlite3": true
   "sqlite3": true
-  # تم إزالة esbuild نهائياً لأنه أصبح يستخدم esbuild-wasm
+  # esbuild محذوف لأنه سيتم استبداله بـ esbuild-wasm
