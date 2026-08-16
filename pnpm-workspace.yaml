@@ -9,7 +9,6 @@ allowBuilds:
   "sharp": true
   "better-sqlite3": true
   "sqlite3": true
-  "protobufjs": true
 
 overrides:
   esbuild: "npm:esbuild-wasm@0.24.0"
