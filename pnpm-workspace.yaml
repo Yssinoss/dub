@@ -4,13 +4,13 @@ packages:
   - "packages/*"
   - "packages/embeds/*"
 
-onlyBuiltDependencies:
-  - "@prisma/client"
-  - "@prisma/engines"
-  - "@swc/core"
-  - "esbuild"
-  - "prisma"
-  - "protobufjs"
-  - "sharp"
-  - "sqlite3"
-  - "better-sqlite3"
+allowBuilds:
+  "@prisma/client": true
+  "@prisma/engines": true
+  "@swc/core": true
+  "esbuild": true
+  "prisma": true
+  "protobufjs": true
+  "sharp": true
+  "sqlite3": true
+  "better-sqlite3": true
