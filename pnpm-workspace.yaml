@@ -9,4 +9,9 @@ allowBuilds:
   "sharp": true
   "better-sqlite3": true
   "sqlite3": true
-  # esbuild محذوف لأنه سيتم استبداله بـ esbuild-wasm
+
+pnpm:
+  overrides:
+    esbuild: "npm:esbuild-wasm@latest"
+    "@types/react": "19.1.14"
+    "@types/react-dom": "19.1.9"
